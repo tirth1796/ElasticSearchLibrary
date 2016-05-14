@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Tirth Shah\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="C:\Users\Tirth Shah\Career\Code\Android\SimpleWebAPI\ElasticSearchLibrary\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.0-9689f8147ecb561eed2e271037a4b7a3f1007379.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Shah\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\2.6.2\1e13c575f914c83761bb8e2aca7dfd9e4c647579\jackson-dataformat-cbor-2.6.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1e13c575f914c83761bb8e2aca7dfd9e4c647579">
+        <dex dex="C:\Users\Tirth Shah\Career\Code\Android\SimpleWebAPI\ElasticSearchLibrary\app\build\intermediates\pre-dexed\debug\jackson-dataformat-cbor-2.6.2-b2afa8a6f1b9c30acb3e5f862e3808ab67f5b8b3.jar" />
+    </item>
+
+</items>

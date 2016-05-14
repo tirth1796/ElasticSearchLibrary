@@ -1,0 +1,33 @@
+configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+}
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "appbase.elasticsearchlibrary"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'org.elasticsearch:elasticsearch:2.3.2'
+    compile 'org.slf4j:slf4j-api:1.6.1'
+    compile'org.slf4j:slf4j-simple:1.6.1'
+    compile 'org.asynchttpclient:async-http-client:2.0.2'
+    compile 'io.netty:netty:4.0.0.Alpha8'
+}
