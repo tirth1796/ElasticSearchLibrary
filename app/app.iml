@@ -90,15 +90,15 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="lucene-queryparser-5.5.0" level="project" />
     <orderEntry type="library" exported="" name="javassist-3.20.0-GA" level="project" />
-    <orderEntry type="library" exported="" name="joda-convert-1.2" level="project" />
     <orderEntry type="library" exported="" name="jsr166e-1.1.0" level="project" />
+    <orderEntry type="library" exported="" name="joda-convert-1.2" level="project" />
     <orderEntry type="library" exported="" name="lucene-highlighter-5.5.0" level="project" />
-    <orderEntry type="library" exported="" name="lucene-queries-5.5.0" level="project" />
     <orderEntry type="library" exported="" name="joda-time-2.8.2" level="project" />
+    <orderEntry type="library" exported="" name="lucene-queries-5.5.0" level="project" />
     <orderEntry type="library" exported="" name="lucene-analyzers-common-5.5.0" level="project" />
     <orderEntry type="library" exported="" name="netty-codec-4.0.36.Final" level="project" />
-    <orderEntry type="library" exported="" name="netty-reactive-streams-1.0.4" level="project" />
     <orderEntry type="library" exported="" name="netty-transport-4.0.36.Final" level="project" />
+    <orderEntry type="library" exported="" name="netty-reactive-streams-1.0.4" level="project" />
     <orderEntry type="library" exported="" name="HdrHistogram-2.1.6" level="project" />
     <orderEntry type="library" exported="" name="compress-lzf-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="netty-handler-4.0.36.Final" level="project" />
@@ -106,8 +106,8 @@
     <orderEntry type="library" exported="" name="jackson-dataformat-smile-2.6.2" level="project" />
     <orderEntry type="library" exported="" name="async-http-client-2.0.2" level="project" />
     <orderEntry type="library" exported="" name="reactive-streams-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="elasticsearch-2.3.2" level="project" />
     <orderEntry type="library" exported="" name="guava-18.0" level="project" />
+    <orderEntry type="library" exported="" name="elasticsearch-2.3.2" level="project" />
     <orderEntry type="library" exported="" name="lucene-spatial-5.5.0" level="project" />
     <orderEntry type="library" exported="" name="jackson-dataformat-yaml-2.6.2" level="project" />
     <orderEntry type="library" exported="" name="lucene-memory-5.5.0" level="project" />

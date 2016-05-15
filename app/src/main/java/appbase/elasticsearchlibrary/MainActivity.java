@@ -22,6 +22,7 @@ import java.util.concurrent.ExecutionException;
 
 
 public class MainActivity extends ActionBarActivity {
+    ByteArrayOutputStream bytes = new ByteArrayOutputStream();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,12 +44,11 @@ public class MainActivity extends ActionBarActivity {
                 .addHeader("Authorization", "Basic " + AuthHeader)
                 .addQueryParams(parameters)
                 .setRequestTimeout(0).execute(new AsyncHandler<String>() {
-                    private ByteArrayOutputStream bytes = new ByteArrayOutputStream();
 
                     public State onStatusReceived(HttpResponseStatus arg0)
                             throws Exception {
                         // TODO Auto-generated method stub
-                        if(arg0.getStatusCode()>500)
+                        if (arg0.getStatusCode() > 500)
                             return State.ABORT;
 
                         return State.CONTINUE;
@@ -61,8 +61,7 @@ public class MainActivity extends ActionBarActivity {
                         return State.CONTINUE;
                     }
 
-                    public State onBodyPartReceived(HttpResponseBodyPart arg0)
-                    {
+                    public State onBodyPartReceived(HttpResponseBodyPart arg0) {
                         // TODO Auto-generated method stub
 
                         ByteArrayOutputStream localBytes = new ByteArrayOutputStream();

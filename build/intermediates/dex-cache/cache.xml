@@ -6,14 +6,21 @@
         jumboMode="false"
         revision="23.0.1"
         sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
-        <dex dex="C:\Users\Tirth Shah\Career\Code\Android\SimpleWebAPI\ElasticSearchLibrary\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.0-9689f8147ecb561eed2e271037a4b7a3f1007379.jar" />
+        <dex dex="C:\Users\Tirth Shah\Career\Code\Android\ElasticSearchLibrary\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.0-9689f8147ecb561eed2e271037a4b7a3f1007379.jar" />
     </item>
     <item
-        jar="C:\Users\Tirth Shah\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\2.6.2\1e13c575f914c83761bb8e2aca7dfd9e4c647579\jackson-dataformat-cbor-2.6.2.jar"
+        jar="C:\Users\Tirth Shah\.gradle\caches\modules-2\files-2.1\org.apache.lucene\lucene-spatial\5.5.0\c14965bf67179bee93cc8efc58d09a75d230c891\lucene-spatial-5.5.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1e13c575f914c83761bb8e2aca7dfd9e4c647579">
-        <dex dex="C:\Users\Tirth Shah\Career\Code\Android\SimpleWebAPI\ElasticSearchLibrary\app\build\intermediates\pre-dexed\debug\jackson-dataformat-cbor-2.6.2-b2afa8a6f1b9c30acb3e5f862e3808ab67f5b8b3.jar" />
+        sha1="c14965bf67179bee93cc8efc58d09a75d230c891">
+        <dex dex="C:\Users\Tirth Shah\Career\Code\Android\ElasticSearchLibrary\app\build\intermediates\pre-dexed\debug\lucene-spatial-5.5.0-ea09997c6be3f555040b54f9f8d1141438eefa06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Shah\.gradle\caches\modules-2\files-2.1\org.apache.lucene\lucene-highlighter\5.5.0\ecdd913cb7c61a5435591f0a7268b01ab3fc782a\lucene-highlighter-5.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecdd913cb7c61a5435591f0a7268b01ab3fc782a">
+        <dex dex="C:\Users\Tirth Shah\Career\Code\Android\ElasticSearchLibrary\app\build\intermediates\pre-dexed\debug\lucene-highlighter-5.5.0-aee497ab19fec51d2de529647c05ee7fba7cae36.jar" />
     </item>
 
 </items>
